@@ -23,4 +23,5 @@ const booleanExtension = require('./src/types/boolean');
 const naorSymbol = Symbol('naor');
 booleanExtension(naorSymbol);
 console.log(true[naorSymbol].toString());
+true.*toString()
 ```
